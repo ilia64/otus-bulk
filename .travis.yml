@@ -15,4 +15,4 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-    - curl -f -T matrix-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -uilia64:$BINTRAY_KEY "https://api.bintray.com/content/ilia64/otus-cpp/matrix/$TRAVIS_BUILD_NUMBER/matrix-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=xenial;deb_component=main;deb_architecture=amd64;publish=1"
+    - curl -f -T bulk-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -uilia64:$BINTRAY_KEY "https://api.bintray.com/content/ilia64/otus-cpp/bulk/$TRAVIS_BUILD_NUMBER/bulk-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=xenial;deb_component=main;deb_architecture=amd64;publish=1"
