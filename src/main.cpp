@@ -7,4 +7,6 @@ int main(int argc, char* argv[])
         std::cerr << "program expect bulk size argument!" << std::endl;
         return EXIT_FAILURE;
     }
+
+
 }
