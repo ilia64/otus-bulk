@@ -9,7 +9,7 @@ endif ()
 
 project(bulk VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER} LANGUAGES CXX)
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp src/Bulk.cpp)
 
 set(MY_INSTALL_PATH bin)
 if (NOT DEFINED ENV{CI})
